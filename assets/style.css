@@ -1,0 +1,29 @@
+/* Center the Connect MetaMask button */
+button[title="Connect MetaMask"] {
+    background-color: #f6851b; /* MetaMask orange */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[title="Connect MetaMask"]:hover {
+    background-color: #d9731e; /* Slightly darker orange */
+}
+
+/* Style metrics and other app components */
+.css-1aumxhk {
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table styling for token portfolio */
+.css-1ekf1kf {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
